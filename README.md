@@ -5,7 +5,7 @@
  - RaviTeja Pagidoju
  - Gopichand Bandarupalli
  - Pruthvi Naskanti
- - Siva Rama Krishna Vodnala
+ - Shiva Rama Krishna Vodnala
  - Sai Krishna Emmadishetty
  
  <table>
@@ -48,12 +48,3 @@
 - Go to IntelliJ plugins settings (IntelliJ IDEA -> Preferences -> Plugins) and click on “Install Jetbrains plugin…”.
 - Select and install the “Scala” plugin.
 - Restart IntelliJ
-
-
- 
- 
- 
- 
-
- 
- 
