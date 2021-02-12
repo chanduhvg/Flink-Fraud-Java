@@ -23,6 +23,13 @@
 </b></sub></a><br /></td>
 
 </table>
+
+
+### Prerequisites:
+* Apache Flink Installed (2.12 or 2.11)
+* Scala Installed
+* IntelliJ IDE installed
+
  
  
  
