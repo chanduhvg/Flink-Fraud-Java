@@ -28,7 +28,7 @@
 ### Prerequisites:
 * Apache Flink Installed (2.12 or 2.11)
 * Installing the Scala plugin
-* IntelliJ IDE installed
+* IntelliJ / Eclipse IDE installation
 
 ### Introduction to Flink
 
@@ -44,7 +44,7 @@
 - Set up  system variable ``` FLINK_HOME ``` and configure it to the ``` C:\flink-1.11.2 ``` folder location and configure the path accordingly.
 
 ### Installing the Scala plugin
-- The IntelliJ installation setup offers to install the Scala plugin. If it is not installed, follow these instructions before importing Flink to enable support for Scala   projects and files:
+- The IntelliJ / Eclipse installation setup offers to install the Scala plugin. If it is not installed, follow these instructions before importing Flink to enable support for Scala   projects and files:
 - Go to IntelliJ plugins settings (IntelliJ IDEA -> Preferences -> Plugins) and click on “Install Jetbrains plugin…”.
 - Select and install the “Scala” plugin.
 - Restart IntelliJ
