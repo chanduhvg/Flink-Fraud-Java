@@ -17,7 +17,7 @@
 
 <td align="center"><a href="https://github.com/pruthvi-naskanti"><img src="https://github.com/chanduhvg/Flink-Fraud-Scala/blob/main/Pruthvi_pic.jpg?raw=true" width="100px;" alt=""/><br /><sub><b>Pruthvi Naskanti</b></sub></a><br /></td>
 
-<td align="center"><a href="https://github.com/anshithavelagapudi"><img src="https://avatars.githubusercontent.com/u/60020144?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Naga Anshitha Velagapudi</b></sub></a><br /></td>
+<td align="center"><a href="https://github.com/srkvodnala"><img src="https://avatars.githubusercontent.com/u/28599511?s=400&u=b1f6f569110d0150f844184d33a3d7b8e0a4dc4b&v=4" alt=""/><br /><sub><b>Shiva Rama Krishna</b></sub></a><br /></td>
 
 <td align="center"><a href="https://github.com/KHARIKA17"><img src="https://avatars.githubusercontent.com/u/60010885?s=460&u=24c5428d5a37b37a3efd752d271740b402177734&v=4" width="100px;" alt=""/><br /><sub><b>Harika Kulkarni</b></sub></a><br /></td>
 
