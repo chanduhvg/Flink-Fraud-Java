@@ -9,7 +9,7 @@
  - Sai Krishna Emmadishetty
  
  <table>
-<td align="center"><a href="https://github.com/GD-Prasad"><img src="https://avatars.githubusercontent.com/u/60024334?s=460&u=20ef224b43a8e817fdceb9e558d631e1a6e7435d&v=4" width="100px;" alt=""/><br /><sub><b>Swaroop Reddy</b></sub></a><br /></td>
+<td align="center"><a href="https://github.com/GD-Prasad"><img src="https://avatars.githubusercontent.com/u/59986885?s=400&u=df8057f5d9aa0936da702cdb1a5a776ceddf12a5&v=4" width="100px;" alt=""/><br /><sub><b>GD Prasad</b></sub></a><br /></td>
 
 <td align="center"><a href="https://github.com/pruthvi-naskanti"><img src="https://github.com/chanduhvg/Flink-Fraud-Scala/blob/main/Pruthvi_pic.jpg?raw=true" width="100px;" alt=""/><br /><sub><b>Pruthvi Naskanti</b></sub></a><br /></td>
 
