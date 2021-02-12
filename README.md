@@ -30,6 +30,19 @@
 * Scala Installed
 * IntelliJ IDE installed
 
+### Introduction to Flink
+
+- Apache Flink is an Open source stream processing framework for distributed, high performance data streaming application.
+- Flink also provides batch processing, graph processing, Itearative proccessing for Machine learning applications. 
+- Flink is considered as the next-gen stream processing system. 
+- Flink offers substantially higher processing speeds to spark and hadoop.
+- Flink provides low latency and high throughput
+
+### Flink download.
+- Go to [apache Flink](https://flink.apache.org/downloads.html) link and select the latest available stable version and download it.
+- open powershell and untar the downloaded file using ``` tar -xvf <filename.tgz> ```.
+- Set up  system variable ``` FLINK_HOME ``` and configure it to the ``` C:\flink-1.11.2 ``` folder location and configure the path accordingly.
+
  
  
  
