@@ -29,6 +29,7 @@
 * Apache Flink Installed (2.12 or 2.11)
 * Installing the Scala plugin
 * IntelliJ / Eclipse IDE installation
+* Spark
 
 ### Introduction to Flink
 
@@ -53,3 +54,4 @@
 - So, to change the project to Scala project, select files and select environment configuration.
 - In environment configuration select global environment and select add symbol and select sacal.
 - Now, the project is ready for scala projects.
+- Add dependencies to flink fraud project in intelliJ IDE.
