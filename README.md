@@ -51,3 +51,5 @@
 - To be able to open a Scala editor, open new project, Select Scala and java verssion 1.8.
 - Once the project is created, the editor will create a java project.
 - So, to change the project to Scala project, select files and select environment configuration.
+- In environment configuration select global environment and select add symbol and select sacal.
+- Now, the project is ready for scala projects.
