@@ -55,3 +55,5 @@
 - In environment configuration select global environment and select add symbol and select sacal.
 - Now, the project is ready for scala projects.
 - Add dependencies to flink fraud project in intelliJ IDE.
+
+## Installed Intellij with sbt dependencies.
