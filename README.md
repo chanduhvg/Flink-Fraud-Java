@@ -48,3 +48,6 @@
 - Go to IntelliJ plugins settings (IntelliJ IDEA -> Preferences -> Plugins) and click on “Install Jetbrains plugin…”.
 - Select and install the “Scala” plugin.
 - Restart IntelliJ
+- To be able to open a Scala editor, open new project, Select Scala and java verssion 1.8.
+- Once the project is created, the editor will create a java project.
+- So, to change the project to Scala project, select files and select environment configuration.
