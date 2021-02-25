@@ -57,8 +57,11 @@
 - Add dependencies to flink fraud project in intelliJ IDE.
 
 ### Flink set up using Maven.
-Using Apache Net Beans create a new Maven project.
-When trying to create a new flink application for the first time. Create a new archetype by configuring the GroupId, artifactId, and version as specified in the below screenshot. Click "ok" and then click "finish".
+- Using Apache Net Beans create a new Maven project.
+- When trying to create a new flink application for the first time. Create a new archetype by configuring the GroupId, artifactId, and version as specified in the below    screenshot. Click "ok" and then click "finish".
+
+- After creating the archetype select the flink archetype from the list of available archetypes and create a Maven project.
+- 
 
 
 
