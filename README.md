@@ -59,6 +59,9 @@
 ### Flink set up using Maven.
 - Using Apache Net Beans create a new Maven project.
 - When trying to create a new flink application for the first time. Create a new archetype by configuring the GroupId, artifactId, and version as specified in the below    screenshot. Click "ok" and then click "finish".
+- ![](https://github.com/chanduhvg/Flink-Fraud-Java/blob/main/NewProject.png)
+- ![](https://github.com/chanduhvg/Flink-Fraud-Java/blob/main/SelectArchtechtype.png)
+- ![](https://github.com/chanduhvg/Flink-Fraud-Java/blob/main/Screenshot%20(45).png)
 
 - After creating the archetype select the flink archetype from the list of available archetypes and create a Maven project.
 - 
