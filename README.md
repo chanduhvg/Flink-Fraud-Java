@@ -1,4 +1,4 @@
-# Flink-Fraud-Scala
+# Flink-Fraud-Java
 
 ## Group Members
  - Golla Durga Prasad
