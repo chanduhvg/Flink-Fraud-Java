@@ -27,9 +27,9 @@
 
 ### Prerequisites:
 * Apache Flink Installed (2.12 or 2.11)
-* Installing the Scala plugin
-* IntelliJ / Eclipse IDE installation
-* Spark
+* Installing JDK 8
+* IntelliJ / Eclipse IDE / Apache Net Beans installation
+
 
 ### Introduction to Flink
 
@@ -56,4 +56,9 @@
 - Now, the project is ready for scala projects.
 - Add dependencies to flink fraud project in intelliJ IDE.
 
-## Installed Intellij with sbt dependencies.
+### Flink set up using Maven.
+Using Apache Net Beans create a new Maven project.
+When trying to create a new flink application for the first time. Create a new archetype by configuring the GroupId, artifactId, and version as specified in the below screenshot. Click "ok" and then click "finish".
+
+
+
