@@ -56,15 +56,6 @@
 - Now, the project is ready for scala projects.
 - Add dependencies to flink fraud project in intelliJ IDE.
 
-### Flink set up using Maven.
-- Using Apache Net Beans create a new Maven project.
-- When trying to create a new flink application for the first time. Create a new archetype by configuring the GroupId, artifactId, and version as specified in the below    screenshot. Click "ok" and then click "finish".
-- ![](https://github.com/chanduhvg/Flink-Fraud-Java/blob/main/NewProject.png)
-- ![](https://github.com/chanduhvg/Flink-Fraud-Java/blob/main/SelectArchtechtype.png)
-- ![](https://github.com/chanduhvg/Flink-Fraud-Java/blob/main/Screenshot%20(45).png)
-
-- After creating the archetype select the flink archetype from the list of available archetypes and create a Maven project.
-
 # Ravi Teja Pagidoju&nbsp;
 
 ## Contibution
@@ -90,5 +81,50 @@
 - https://nmap.org/ncat/
 - https://nmap.org/ncat/guide/ncat-usage.html
 - https://ci.apache.org/projects/flink/flink-docs-stable/dev/datastream_api.html
+
+# Gopichand Bandarupalli&nbsp;
+
+## Contibution
+- Apache FLink Fraud detection on Square Number using java
+
+## Installables
+- Java installed on machine
+- Apache flink installed
+- Netbeans IDE installed
+- Netcat installed
+
+
+## Flink set up using Maven.
+- Using Apache Net Beans create a new Maven project.
+- When trying to create a new flink application for the first time. Create a new archetype by configuring the GroupId, artifactId, and version as specified in the below    screenshot. Click "ok" and then click "finish".
+ ![](https://github.com/chanduhvg/Flink-Fraud-Java/blob/main/NewProject.png)
+ 
+ - We need to select the Archtechtype in the Maven archtype is flink-quickstart-java_2.11
+ 
+ ![](https://github.com/chanduhvg/Flink-Fraud-Java/blob/main/SelectArchtechtype.png)
+
+- After creating the archetype select the flink archetype from the list of available archetypes and create a Maven project.
+
+ ![](https://github.com/chanduhvg/Flink-Fraud-Java/blob/main/Screenshot%20(45).png)
+
+
+
+## Steps for Execution of Square Number Fraud Detection
+- Add flink dependencies in the pom.xml file to use flink methods in java code.
+- Build the application to make sure all the dependencies are downloaded/added to the project.
+- Before running the java main class(App.java),start the ncat server on port 9000.
+- Java code written using flink stream methods to listen on port 9000.
+- Now run the java application main class which starts listen to port 9000.
+- Enter a number in ncat server(powershell/cmd) and check if its a even or fraud in the netbeans output window.
+- used ncat commands
+- ```ncat -lk 9000```
+
+## References
+- https://nmap.org/ncat/
+- https://nmap.org/ncat/guide/ncat-usage.html
+- https://ci.apache.org/projects/flink/flink-docs-stable/dev/datastream_api.html
+
+
+
 
 
