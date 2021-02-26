@@ -167,5 +167,35 @@
 - Enter a number in ncat server(powershell/cmd) and check if its a even or fraud in the netbeans output window.
 - used ncat commands
 - ```ncat -lk 9000```
+## Sai Krishna Emmadishetty
+
+##Contribution
+
+Apache flink fraud detection on Number greater using java
+
+## Installables
+
+Apache NetBeans IDE installed.
+Netcat Installed.
+Java installed on machine
+Apache flink installed(>2)
+
+## Steps for Execution of Even Number Fraud Detection
+
+1. first clone the project the from github and open the project in netbeans and then after
+ clean and bulid to the project in order to download all dependenies to our project
+2. open the project and run the file from choosing the main class
+3. Then after open power shell commander on current project folder, start ncat
+server on port 9000
+4. We need to give input number in ncat server in power shell command
+and check if number is greater than 1000 returns as -1 as fraud number and if the
+number is less than 1000 it returns as same number as over input.
+5.used ncat commands
+6.ncat -lk 9000
+
+## References
+
+https://nmap.org/ncat/guide/ncat-usage.html
+https://ci.apache.org/projects/flink/flink-docs-stable/dev/datastream_api.html
 
 
