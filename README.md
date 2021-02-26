@@ -146,6 +146,26 @@
 - used ncat commands
 - ```ncat -lk 9000```
 
+# Pruthvi Naskanti&nbsp;
 
+## Contibution
+- Apache FLink Fraud detection on String Length using java
+
+## Installables
+- Java installed on machine
+- Apache flink installed(>2)
+- Netbeans IDE installed
+- Netcat installed
+
+## Steps for Execution of Even Number Fraud Detection
+
+- Add flink dependencies in the pom.xml file to use flink methods in java code.
+- Build the application to make sure all the dependencies are downloaded/added to the project.
+- Before running the java main class(App.java),start the ncat server on port 9000.
+- Java code written using flink stream methods to listen on port 9000.
+- Now run the java application main class which starts listen to port 9000.
+- Enter a number in ncat server(powershell/cmd) and check if its a even or fraud in the netbeans output window.
+- used ncat commands
+- ```ncat -lk 9000```
 
 
