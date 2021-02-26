@@ -187,7 +187,7 @@ Apache flink fraud detection on Number greater using java
 - Java installed on machine
 - Apache flink installed(>2)
 
-## Steps for Execution of Even Number Fraud Detection
+## Steps for Execution of Greater Number Fraud Detection
 
 1. first clone the project the from github and open the project in netbeans and then after
  clean and bulid to the project in order to download all dependenies to our project
