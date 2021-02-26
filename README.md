@@ -124,6 +124,27 @@
 - https://nmap.org/ncat/guide/ncat-usage.html
 - https://ci.apache.org/projects/flink/flink-docs-stable/dev/datastream_api.html
 
+# Shiva Rama Krishna Vodnala&nbsp;
+
+## Contibution
+- Apache FLink Fraud detection on double characters 
+- If a string contains 'zz' it is considered as a fraud number
+
+## Installables
+- Java installed on machine
+- Apache flink installed(>2)
+- Netbeans IDE installed
+- Netcat installed
+
+## Steps for Execution of Even Number Fraud Detection
+- Add flink dependencies in the pom.xml file to use flink methods in java code.
+- Build the application to make sure all the dependencies are downloaded/added to the project.
+- Before running the java main class(App.java),start the ncat server on port 9000.
+- Java code written using flink stream methods to listen on port 9000.
+- Now run the java application main class which starts listen to port 9000.
+- We need to enter a string in ncat server, if the string contains a 'zz' then it will be considered as a malicious transaction otherwise it is safe.
+- used ncat commands
+- ```ncat -lk 9000```
 
 
 
