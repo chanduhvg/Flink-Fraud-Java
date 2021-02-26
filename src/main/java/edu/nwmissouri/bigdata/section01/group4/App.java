@@ -9,7 +9,10 @@ public class App
     public static void main( String[] args ) throws Exception
     {
         //Even number fraud detection
-        EvenNumber evenNumber=new EvenNumber();
+       EvenNumber evenNumber=new EvenNumber();
         evenNumber.FraudDetectEvenNumber();
+        
+        OddNumber odd=new OddNumber();
+        odd.OddNumberDetection();
     }
 }
