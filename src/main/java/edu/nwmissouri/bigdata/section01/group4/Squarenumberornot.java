@@ -16,7 +16,7 @@ import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.util.Collector;
-public class OddNumber {
+public class Squarenumberornot {
     public void OddNumberDetection() throws Exception{
          // Create the execution environment.
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
@@ -26,9 +26,10 @@ public class OddNumber {
         DataStream<Integer> parsed = text.map(new MapFunction<String, Integer>() {
                                         @Override
                                         public Integer map(String value) {
-                                            int number= Integer.parseInt(value);
-                                            if(number%2!=0){
-                                                return number;
+                                            double number= Double.parseDouble(value);
+                                            double sr=Math.sqrt(number);
+                                            if((sr*sr)== number){
+                                                return (int)number;
                                             }
                                             else
                                                 return -1;

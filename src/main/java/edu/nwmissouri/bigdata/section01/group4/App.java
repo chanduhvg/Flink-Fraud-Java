@@ -12,7 +12,7 @@ public class App
        EvenNumber evenNumber=new EvenNumber();
         evenNumber.FraudDetectEvenNumber();
         
-        OddNumber odd=new OddNumber();
+        Squarenumberornot odd=new Squarenumberornot();
         odd.OddNumberDetection();
     }
 }
