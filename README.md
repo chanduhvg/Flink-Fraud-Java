@@ -99,6 +99,8 @@
 - When trying to create a new flink application for the first time. Create a new archetype by configuring the GroupId, artifactId, and version as specified in the below    screenshot. Click "ok" and then click "finish".
  ![](https://github.com/chanduhvg/Flink-Fraud-Java/blob/main/NewProject.png)
  
+ - We need to select the Archtechtype in the Maven archtype is flink-quickstart-java_2.11
+ 
  ![](https://github.com/chanduhvg/Flink-Fraud-Java/blob/main/SelectArchtechtype.png)
 
 - After creating the archetype select the flink archetype from the list of available archetypes and create a Maven project.
