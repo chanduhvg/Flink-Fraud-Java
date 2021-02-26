@@ -140,6 +140,33 @@
 - https://nmap.org/ncat/guide/ncat-usage.html
 - https://ci.apache.org/projects/flink/flink-docs-stable/dev/datastream_api.html
 
+# Pruthvi Naskanti&nbsp;
+
+## Contibution
+- Apache FLink Fraud detection on String Length using java
+
+## Installables
+- Java installed on machine
+- Apache flink installed
+- [NetCat Installation](https://nmap.org/dist/nmap-7.91-setup.exe)
+- Netbeans IDE installed
+
+
+## Steps for Execution of Even Number Fraud Detection
+- Add flink dependencies in the pom.xml file to use flink methods in java code.
+- Build the application to make sure all the dependencies are downloaded/added to the project.
+- Before running the java main class(App.java),start the ncat server on port 9000.
+- Java code written using flink stream methods to listen on port 9000.
+- Now run the java application main class which starts listen to port 9000.
+- Enter a String in ncat server(powershell/cmd) and check the length of the string in netbeans output window. 
+- If the length of the string is greater than 8, it will throw negative number -1.
+- used ncat commands
+- ```ncat -lk 9000```
+
+## References
+- https://nmap.org/ncat/
+- https://nmap.org/ncat/guide/ncat-usage.html
+- https://ci.apache.org/projects/flink/flink-docs-stable/dev/datastream_api.html
 
 
 
