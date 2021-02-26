@@ -90,6 +90,9 @@
 - used ncat commands
 - ```ncat -lk 9000```
 
+## Explanation Video link
+[Video Link](https://app.vidgrid.com/view/o2wFXv109DWP)
+
 ## References
 - https://nmap.org/ncat/
 - https://nmap.org/ncat/guide/ncat-usage.html
