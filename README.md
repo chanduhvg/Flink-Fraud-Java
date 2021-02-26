@@ -175,10 +175,10 @@ Apache flink fraud detection on Number greater using java
 
 ## Installables
 
-1.Apache NetBeans IDE installed.
-2.Netcat Installed.
-3.Java installed on machine
-4.Apache flink installed(>2)
+- Apache NetBeans IDE installed.
+- Netcat Installed.
+- Java installed on machine
+- Apache flink installed(>2)
 
 
 ## Steps for Execution of Even Number Fraud Detection
