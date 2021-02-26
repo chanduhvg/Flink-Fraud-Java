@@ -45,7 +45,7 @@
 - Set up  system variable ``` FLINK_HOME ``` and configure it to the ``` C:\flink-1.11.2 ``` folder location and configure the path accordingly.
 
 
-# Prasad GOlla Durgab:
+# Prasad Golla Durga:
 
 ## Contibution
 - Apache Flink setup and setting up netbeans Flink environment.
