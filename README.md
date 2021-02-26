@@ -187,9 +187,7 @@ Apache flink installed(>2)
 2. open the project and run the file from choosing the main class
 3. Then after open power shell commander on current project folder, start ncat
 server on port 9000
-4. We need to give input number in ncat server in power shell command
-and check if number is greater than 1000 returns as -1 as fraud number and if the
-number is less than 1000 it returns as same number as over input.
+4. We need to give input number in ncat server in power shell command and check if number is greater than 1000 returns as -1 as fraud number and if the number is less than 1000 it returns as same number as over input.
 5.used ncat commands
 6.ncat -lk 9000
 
