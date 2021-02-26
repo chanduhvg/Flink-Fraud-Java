@@ -20,16 +20,16 @@ public class NumberGreater {
                                         @Override
                                         public Integer map(String value) {
                                             int number= Integer.parseInt(value);
-                                            if(number>1000){
-                                                return -1;  
+                                            if(number<1000){
+                                                return number;  
                                             }
                                             else
-                                                return number;
+                                                return -1;
                                         }
                                     });
        
         parsed.print().setParallelism(1);
-        env.execute("Socket Window WordCount");
+        
     }
     
 }
