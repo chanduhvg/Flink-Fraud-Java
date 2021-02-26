@@ -28,7 +28,7 @@
 ### Prerequisites:
 * Apache Flink Installed (2.12 or 2.11)
 * Installing JDK 8
-* IntelliJ / Eclipse IDE / Apache Net Beans installation
+* IntelliJ / Eclipse IDE / Apache Net Beans installation.
 
 
 ### Introduction to Flink
@@ -44,17 +44,29 @@
 - open powershell and untar the downloaded file using ``` tar -xvf <filename.tgz> ```.
 - Set up  system variable ``` FLINK_HOME ``` and configure it to the ``` C:\flink-1.11.2 ``` folder location and configure the path accordingly.
 
-### Installing the Scala plugin
-- The IntelliJ / Eclipse installation setup offers to install the Scala plugin. If it is not installed, follow these instructions before importing Flink to enable support for Scala   projects and files:
-- Go to IntelliJ plugins settings (IntelliJ IDEA -> Preferences -> Plugins) and click on “Install Jetbrains plugin…”.
-- Select and install the “Scala” plugin.
-- Restart IntelliJ
-- To be able to open a Scala editor, open new project, Select Scala and java verssion 1.8.
-- Once the project is created, the editor will create a java project.
-- So, to change the project to Scala project, select files and select environment configuration.
-- In environment configuration select global environment and select add symbol and select sacal.
-- Now, the project is ready for scala projects.
-- Add dependencies to flink fraud project in intelliJ IDE.
+
+# Prasad GOlla Durgab:
+
+## Contibution
+- Apache Flink setup and setting up netbeans Flink environment.
+- Apache FLink Fraud detection on Prime Number using java.
+- Basic Fraud Detetction Application in Bank Transaction.
+
+## Installables
+- Java installed on machine
+- Apache flink installed(>2)
+- Netbeans IDE installed
+- Netcat installed
+
+## Steps for Execution of Even Number Fraud Detection
+- Add flink dependencies in the pom.xml file to use flink methods in java code.
+- Build the application to make sure all the dependencies are downloaded/added to the project.
+- Before running the java main class(App.java),start the ncat server on port 9000.
+- Java code written using flink stream methods to listen on port 9000.
+- Now run the java application main class which starts listen to port 9000.
+- Enter a number in ncat server(powershell/cmd) and check if its a even or fraud in the netbeans output window.
+- used ncat commands
+- ```ncat -lk 9000```
 
 # Ravi Teja Pagidoju&nbsp;
 
@@ -63,9 +75,10 @@
 
 ## Installables
 - Java installed on machine
-- Apache flink installed(>2)
+- Apache flink installed
+- [NetCat Installation](https://nmap.org/dist/nmap-7.91-setup.exe)
 - Netbeans IDE installed
-- Netcat installed
+
 
 ## Steps for Execution of Even Number Fraud Detection
 - Add flink dependencies in the pom.xml file to use flink methods in java code.
@@ -124,86 +137,7 @@
 - https://nmap.org/ncat/guide/ncat-usage.html
 - https://ci.apache.org/projects/flink/flink-docs-stable/dev/datastream_api.html
 
-# Shiva Rama Krishna Vodnala&nbsp;
 
-## Contibution
-- Apache FLink Fraud detection on double characters 
-- If a string contains 'zz' it is considered as a fraud number
-
-## Installables
-- Java installed on machine
-- Apache flink installed(>2)
-- Netbeans IDE installed
-- Netcat installed
-
-## Steps for Execution of Even Number Fraud Detection
-- Add flink dependencies in the pom.xml file to use flink methods in java code.
-- Build the application to make sure all the dependencies are downloaded/added to the project.
-- Before running the java main class(App.java),start the ncat server on port 9000.
-- Java code written using flink stream methods to listen on port 9000.
-- Now run the java application main class which starts listen to port 9000.
-- We need to enter a string in ncat server, if the string contains a 'zz' then it will be considered as a malicious transaction otherwise it is safe.
-- used ncat commands
-- ```ncat -lk 9000```
-
-# Pruthvi Naskanti&nbsp;
-
-## Contibution
-- Apache FLink Fraud detection on String Length using java
-
-## Installables
-- Java installed on machine
-- Apache flink installed(>2)
-- Netbeans IDE installed
-- Netcat installed
-
-## Steps for Execution of Even Number Fraud Detection
-
-- Add flink dependencies in the pom.xml file to use flink methods in java code.
-- Build the application to make sure all the dependencies are downloaded/added to the project.
-- Before running the java main class(App.java),start the ncat server on port 9000.
-- Java code written using flink stream methods to listen on port 9000.
-- Now run the java application main class which starts listen to port 9000.
-- Enter a number in ncat server(powershell/cmd) and check if its a even or fraud in the netbeans output window.
-- used ncat commands
-- ```ncat -lk 9000```
-
-## References
-- https://nmap.org/ncat/
-- https://nmap.org/ncat/guide/ncat-usage.html
-- https://ci.apache.org/projects/flink/flink-docs-stable/dev/datastream_api.html
-- https://ci.apache.org/projects/flink/flink-docs-release-1.12/try-flink/local_installation.html
-
-
-
-## Sai Krishna Emmadishetty
-
-## Contribution
-
-Apache flink fraud detection on Number greater using java
-
-## Installables
-
-- Apache NetBeans IDE installed.
-- Netcat Installed.
-- Java installed on machine
-- Apache flink installed(>2)
-
-
-## Steps for Execution of Even Number Fraud Detection
-
-1. first clone the project the from github and open the project in netbeans and then after
- clean and bulid to the project in order to download all dependenies to our project
-2. open the project and run the file from choosing the main class
-3. Then after open power shell commander on current project folder, start ncat
-server on port 9000
-4. We need to give input number in ncat server in power shell command and check if number is greater than 1000 returns as -1 as fraud number and if the number is less than 1000 it returns as same number as over input.
-5.used ncat commands
-6.ncat -lk 9000
-
-## References
-1. https://nmap.org/ncat/guide/ncat-usage.html
-2. https://ci.apache.org/projects/flink/flink-docs-stable/dev/datastream_api.html
 
 
 
