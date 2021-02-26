@@ -167,6 +167,15 @@
 - Enter a number in ncat server(powershell/cmd) and check if its a even or fraud in the netbeans output window.
 - used ncat commands
 - ```ncat -lk 9000```
+
+## References
+- https://nmap.org/ncat/
+- https://nmap.org/ncat/guide/ncat-usage.html
+- https://ci.apache.org/projects/flink/flink-docs-stable/dev/datastream_api.html
+- https://ci.apache.org/projects/flink/flink-docs-release-1.12/try-flink/local_installation.html
+
+
+
 ## Sai Krishna Emmadishetty
 
 ## Contribution
