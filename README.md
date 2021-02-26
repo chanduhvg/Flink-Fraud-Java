@@ -67,7 +67,7 @@
 - Now run the java application main class which starts listen to port 9000.
 - Enter a number in ncat server(powershell/cmd) and check if it contains a fraud in the input from ncat server to netbeans output window.
 
-* ![Link to the Video](https://app.vidgrid.com/view/4ZdDpbhONxJc)
+* [Link to the Video](https://app.vidgrid.com/view/4ZdDpbhONxJc)
 
 
 # Ravi Teja Pagidoju&nbsp;
