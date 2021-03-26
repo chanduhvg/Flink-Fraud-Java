@@ -169,7 +169,7 @@ https://use.vg/0nFBhD
 - ```ncat -lk 9000```
 
 ## Vidgrid Demonstration link
-https://use.vg/BzHtiW
+[Pruthvi's Video Link](https://use.vg/BzHtiW)
 
 ## References
 - https://nmap.org/ncat/
@@ -202,7 +202,7 @@ server on port 9000
 6.ncat -lk 9000
 
 ## VidGrid Demonistration Link:
-[Pruthvi's Video Link](https://use.vg/IFicxv)
+https://use.vg/IFicxv
 
 ## References
 
