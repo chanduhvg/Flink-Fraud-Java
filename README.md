@@ -222,7 +222,7 @@ https://use.vg/IFicxv
 - Netbeans IDE installed
 - Netcat installed
 
-## Steps for Execution of Even Number Fraud Detection
+## Steps for Execution of Suspicious String in Fraud Detection
 - Add flink dependencies in the pom.xml file to use flink methods in java code.
 - Build the application to make sure all the dependencies are downloaded/added to the project.
 - Before running the java main class(App.java),start the ncat server on port 9000.
