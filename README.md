@@ -202,7 +202,7 @@ server on port 9000
 6.ncat -lk 9000
 
 ## VidGrid Demonistration Link:
-- https://use.vg/IFicxv
+[Pruthvi's Video Link](https://use.vg/IFicxv)
 
 ## References
 
